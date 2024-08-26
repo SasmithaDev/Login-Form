@@ -20,6 +20,7 @@ body{
 }
 
 .flip-btn, .flip-btn-2{
+    font-size: 10px;
     transition: 0.3s ease-in-out;
 }
 .flip-btn:hover, .flip-btn-2:hover{
