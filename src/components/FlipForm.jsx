@@ -127,7 +127,7 @@ const FlipForm = () => {
             <Input type="text" placeholder="Username" />
             <Input type="password" placeholder="Password" />
             <Button>Login</Button>
-            <a className='flip-btn-2' onClick={handleFlip}>I don&#39;t have an Account</a>
+            <a className='flip-btn-2' onClick={handleFlip}>Sign Up</a>
           </FlipCardFront>
 
           <FlipCardBack>
@@ -136,7 +136,7 @@ const FlipForm = () => {
             <Input type="email" placeholder="Email" required />
             <Input type="password" placeholder="Password" required />
             <Button>Sign Up</Button>
-            <a className='flip-btn' onClick={handleFlip}>I have an Account</a>
+            <a className='flip-btn' onClick={handleFlip}>Login</a>
           </FlipCardBack>
         </FlipCardInner>
       </FlipCard>
